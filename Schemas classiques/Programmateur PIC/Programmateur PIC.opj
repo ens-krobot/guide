@@ -1,0 +1,169 @@
+(ExpressProject "Programmateur PIC"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "E:\Programmes\OrCAD\tools\capture\library\pspice\analog.olb"
+        (DisplayName
+           "E:\Programmes\OrCAD\tools\capture\library\pspice\analog.olb")
+        (Type "Schematic Library"))
+      (File "E:\Programmes\OrCAD\tools\capture\library\pspice\breakout.olb"
+        (DisplayName
+           "E:\Programmes\OrCAD\tools\capture\library\pspice\breakout.olb")
+        (Type "Schematic Library"))
+      (File "E:\Programmes\OrCAD\tools\capture\library\pspice\source.olb"
+        (DisplayName
+           "E:\Programmes\OrCAD\tools\capture\library\pspice\source.olb")
+        (Type "Schematic Library"))
+      (File "E:\Programmes\OrCAD\tools\capture\library\pspice\sourcstm.olb"
+        (DisplayName
+           "E:\Programmes\OrCAD\tools\capture\library\pspice\sourcstm.olb")
+        (Type "Schematic Library"))
+      (File "E:\Programmes\OrCAD\tools\capture\library\pspice\special.olb"
+        (DisplayName
+           "E:\Programmes\OrCAD\tools\capture\library\pspice\special.olb")
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "programmateur pic.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "TRUE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Model Libraries")
+    (Folder "Stimulus Files")
+    (Folder "Include Files")
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\programmateur pic-pspicefiles\schematic1\bias.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\programmateur pic-pspicefiles\schematic1\bias.sim"
+        (DisplayName "SCHEMATIC1-bias")
+        (Type "PSpice Profile"))))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    ("CONN RCPT 22x2"
+      (FullPartName "CONN RCPT 22x2.Normal")
+      (LibraryName "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONN RCPT 9x2"
+      (FullPartName "CONN RCPT 9x2.Normal")
+      (LibraryName "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONN EDGE 22X2"
+      (FullPartName "CONN EDGE 22X2.Normal")
+      (LibraryName "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PIC16C84
+      (FullPartName "PIC16C84.Normal")
+      (LibraryName
+         "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\MICROCONTROLLER.OLB")
+      (DeviceIndex "0"))
+    (PIC18F452
+      (FullPartName "PIC18F452.Normal")
+      (LibraryName "E:\KROBOT\ROBOT\PIC.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("CAPACITOR POL"
+      (FullPartName "CAPACITOR POL.Normal")
+      (LibraryName "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (BZX84C5V1/SOT
+      (FullPartName "BZX84C5V1/SOT.Normal")
+      (LibraryName "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (2N2222
+      (FullPartName "2N2222.Normal")
+      (LibraryName "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONN RCPT 8x2"
+      (FullPartName "CONN RCPT 8x2.Normal")
+      (LibraryName "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 22X2"
+      (FullPartName "HEADER 22X2.Normal")
+      (LibraryName "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONNECTOR EDGE 22X2"
+      (FullPartName "CONNECTOR EDGE 22X2.Normal")
+      (LibraryName "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONN SOCKET 22x2"
+      (FullPartName "CONN SOCKET 22x2.Normal")
+      (LibraryName "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONN RCPT 22x2/SM"
+      (FullPartName "CONN RCPT 22x2/SM.Normal")
+      (LibraryName "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON16C
+      (FullPartName "CON16C.Normal")
+      (LibraryName "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName
+         "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (D1N4148
+      (FullPartName "D1N4148.Normal")
+      (LibraryName "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\DIODE.OLB")
+      (DeviceIndex "0"))
+    ("CONNECTOR DB9"
+      (FullPartName "CONNECTOR DB9.Normal")
+      (LibraryName "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VSTIM
+      (FullPartName "VSTIM.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "E:\Programmes\OrCAD\tools\capture\library")
+  (MPSSessionName "Olivier")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\Robotique\Cours\Schemas classiques\Programmateur PIC\programmateur pic.dsn")
+      (Path "Design Resources"
+         "D:\Robotique\Cours\Schemas classiques\Programmateur PIC\programmateur pic.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Select "Design Resources"
+         "D:\Robotique\Cours\Schemas classiques\Programmateur PIC\programmateur pic.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -34 -34 237 508 967"))
+      (Tab 0))))

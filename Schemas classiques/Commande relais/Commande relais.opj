@@ -1,0 +1,157 @@
+(ExpressProject "Commande relais"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\commande relais.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (RESNW_BU_8/SIP
+      (FullPartName "RESNW_BU_8/SIP.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("RESISTOR SIP 8"
+      (FullPartName "RESISTOR SIP 8.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("RESISTOR SIP 9"
+      (FullPartName "RESISTOR SIP 9.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RESNW_IS_4/SIP
+      (FullPartName "RESNW_IS_4/SIP.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("CAP POL"
+      (FullPartName "CAP POL.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (74LS04
+      (FullPartName "74LS04.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\GATE.OLB")
+      (DeviceIndex "0"))
+    (R2
+      (FullPartName "R2.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (2N3055
+      (FullPartName "2N3055.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\PWRBJT.OLB")
+      (DeviceIndex "0"))
+    (BC327
+      (FullPartName "BC327.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (74HC04
+      (FullPartName "74HC04.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\GATE.OLB")
+      (DeviceIndex "0"))
+    (7400
+      (FullPartName "7400.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\GATE.OLB")
+      (DeviceIndex "0"))
+    (BC337
+      (FullPartName "BC337.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (1N4148
+      (FullPartName "1N4148.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\EDIODE.OLB")
+      (DeviceIndex "0"))
+    (R1A-SPST
+      (FullPartName "R1A-SPST.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "E:\Krobot\Cours\Schemas classiques\Commande relais\commande relais.dsn")
+      (Path "Design Resources"
+         "E:\Krobot\Cours\Schemas classiques\Commande relais\commande relais.dsn"
+         "SCHEMATIC1")
+      (Select "Design Resources"
+         "E:\Krobot\Cours\Schemas classiques\Commande relais\commande relais.dsn"
+         "SCHEMATIC1" "PAGE4"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 0 200 0 557"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 233 1293 40 500")
+        (Scroll "0 90")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "E:\KROBOT\COURS\SCHEMAS CLASSIQUES\COMMANDE RELAIS\COMMANDE RELAIS.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 220 1276 37 493")
+        (Scroll "0 60")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "E:\KROBOT\COURS\SCHEMAS CLASSIQUES\COMMANDE RELAIS\COMMANDE RELAIS.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE2"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 210 1266 44 500")
+        (Scroll "0 150")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "E:\KROBOT\COURS\SCHEMAS CLASSIQUES\COMMANDE RELAIS\COMMANDE RELAIS.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE3"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 209 1265 61 517")
+        (Scroll "0 120")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "E:\KROBOT\COURS\SCHEMAS CLASSIQUES\COMMANDE RELAIS\COMMANDE RELAIS.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE4")))
+  (MPSSessionName "Olivier"))

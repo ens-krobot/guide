@@ -1,0 +1,221 @@
+(ExpressProject "Bus"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "E:\Programmes\OrCAD\tools\capture\library\pspice\analog.olb"
+        (DisplayName
+           "E:\Programmes\OrCAD\tools\capture\library\pspice\analog.olb")
+        (Type "Schematic Library"))
+      (File "E:\Programmes\OrCAD\tools\capture\library\pspice\breakout.olb"
+        (DisplayName
+           "E:\Programmes\OrCAD\tools\capture\library\pspice\breakout.olb")
+        (Type "Schematic Library"))
+      (File "E:\Programmes\OrCAD\tools\capture\library\pspice\source.olb"
+        (DisplayName
+           "E:\Programmes\OrCAD\tools\capture\library\pspice\source.olb")
+        (Type "Schematic Library"))
+      (File "E:\Programmes\OrCAD\tools\capture\library\pspice\sourcstm.olb"
+        (DisplayName
+           "E:\Programmes\OrCAD\tools\capture\library\pspice\sourcstm.olb")
+        (Type "Schematic Library"))
+      (File "E:\Programmes\OrCAD\tools\capture\library\pspice\special.olb"
+        (DisplayName
+           "E:\Programmes\OrCAD\tools\capture\library\pspice\special.olb")
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "bus.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "TRUE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Visible_Power_pins "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Report_File "F:\KROBOT\BUS\BUS.DRC"))
+  (Folder "Outputs"
+    (File ".\bus.drc"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Model Libraries")
+    (Folder "Stimulus Files")
+    (Folder "Include Files")
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\bus-pspicefiles\schematic1\bias.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\bus-pspicefiles\schematic1\bias.sim"
+        (DisplayName "SCHEMATIC1-bias")
+        (Type "PSpice Profile"))))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (VCC
+      (LibraryName
+         "D:\PROGRAM FILES\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (74HC04
+      (FullPartName "74HC04.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\GATE.OLB")
+      (DeviceIndex "0"))
+    (74LS04
+      (FullPartName "74LS04.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\GATE.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    ("CAP POL"
+      (FullPartName "CAP POL.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (VARISTOR
+      (FullPartName "VARISTOR.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (TAN
+      (FullPartName "TAN.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName
+         "D:\PROGRAM FILES\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (RESNW_BU_8/SIP
+      (FullPartName "RESNW_BU_8/SIP.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RESNW_IS_4/SIP
+      (FullPartName "RESNW_IS_4/SIP.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (1N6265/TO
+      (FullPartName "1N6265/TO.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (74HC00
+      (FullPartName "74HC00.Normal")
+      (LibraryName "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\GATE.OLB")
+      (DeviceIndex "0"))
+    (Q2N2222
+      (FullPartName "Q2N2222.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\PSPICE\BIPOLAR.OLB")
+      (DeviceIndex "0"))
+    ("SW MAG-SPST"
+      (FullPartName "SW MAG-SPST.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (74HC04/SO
+      (FullPartName "74HC04/SO.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\GATE.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (2N2222
+      (FullPartName "2N2222.Normal")
+      (LibraryName "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    ("SW SPST"
+      (FullPartName "SW SPST.Normal")
+      (LibraryName "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (74HC540
+      (FullPartName "74HC540.Normal")
+      (LibraryName
+         "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\BUSDRIVERTRANSCEIVER.OLB")
+      (DeviceIndex "0"))
+    (74HC541
+      (FullPartName "74HC541.Normal")
+      (LibraryName
+         "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\BUSDRIVERTRANSCEIVER.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("RESISTOR SIP 9"
+      (FullPartName "RESISTOR SIP 9.Normal")
+      (LibraryName "E:\PROGRAMMES\ORCAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "D:\Program Files\OrCAD\OrCAD_10.5\tools\capture\library\oldlibs")
+  (MPSSessionName "Olivier")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "E:\Krobot\Cours\Schemas classiques\Bus\bus.dsn")
+      (Path "Design Resources" "E:\Krobot\Cours\Schemas classiques\Bus\bus.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "E:\Krobot\Cours\Schemas classiques\Bus\bus.dsn" "SCHEMATIC1" "PAGE4"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 0 200 0 463"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 88 1148 88 548")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "E:\KROBOT\COURS\SCHEMAS CLASSIQUES\BUS\BUS.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE3"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 110 1166 110 566")
+        (Scroll "0 30")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "E:\KROBOT\COURS\SCHEMAS CLASSIQUES\BUS\BUS.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE4"))))

@@ -1,0 +1,73 @@
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING:  [DRC0005]  Unconnected pin U4,D0
+                    SCHEMATIC1, PAGE1  (7.40, 2.70) 
+WARNING:  [DRC0005]  Unconnected pin U4,D1
+                    SCHEMATIC1, PAGE1  (7.40, 2.80) 
+WARNING:  [DRC0005]  Unconnected pin U4,D2
+                    SCHEMATIC1, PAGE1  (7.40, 2.90) 
+WARNING:  [DRC0005]  Unconnected pin U4,D3
+                    SCHEMATIC1, PAGE1  (7.40, 3.00) 
+WARNING:  [DRC0005]  Unconnected pin U4,D4
+                    SCHEMATIC1, PAGE1  (7.40, 3.10) 
+WARNING:  [DRC0005]  Unconnected pin U4,D5
+                    SCHEMATIC1, PAGE1  (7.40, 3.20) 
+WARNING:  [DRC0005]  Unconnected pin U4,D6
+                    SCHEMATIC1, PAGE1  (7.40, 3.30) 
+WARNING:  [DRC0005]  Unconnected pin U4,D7
+                    SCHEMATIC1, PAGE1  (7.40, 3.40) 
+WARNING:  [DRC0005]  Unconnected pin U5,A1
+                    SCHEMATIC1, PAGE1  (7.40, 0.70) 
+WARNING:  [DRC0005]  Unconnected pin U5,A2
+                    SCHEMATIC1, PAGE1  (7.40, 0.80) 
+WARNING:  [DRC0005]  Unconnected pin U5,A3
+                    SCHEMATIC1, PAGE1  (7.40, 0.90) 
+WARNING:  [DRC0005]  Unconnected pin U5,A4
+                    SCHEMATIC1, PAGE1  (7.40, 1.00) 
+WARNING:  [DRC0005]  Unconnected pin U5,A5
+                    SCHEMATIC1, PAGE1  (7.40, 1.10) 
+WARNING:  [DRC0005]  Unconnected pin U5,A6
+                    SCHEMATIC1, PAGE1  (7.40, 1.20) 
+WARNING:  [DRC0005]  Unconnected pin U5,A7
+                    SCHEMATIC1, PAGE1  (7.40, 1.30) 
+WARNING:  [DRC0005]  Unconnected pin U5,A8
+                    SCHEMATIC1, PAGE1  (7.40, 1.40) 
+
+Checking for Unconnected Nets
+WARNING:  [DRC0007]  Net has no driving source A1
+                    SCHEMATIC1, PAGE1  (1.40, 1.40) 
+WARNING:  [DRC0007]  Net has no driving source A2
+                    SCHEMATIC1, PAGE1  (2.80, 3.10) 
+WARNING:  [DRC0007]  Net has no driving source A0
+                    SCHEMATIC1, PAGE1  (1.40, 1.30) 
+WARNING:  [DRC0006]  Net has fewer than two connections /INT
+                    SCHEMATIC1, PAGE1  (1.60, 5.30) 
+WARNING:  [DRC0006]  Net has fewer than two connections /I2
+                    SCHEMATIC1, PAGE1  (1.60, 5.00) 
+WARNING:  [DRC0006]  Net has fewer than two connections /I1
+                    SCHEMATIC1, PAGE1  (1.20, 4.30) 
+WARNING:  [DRC0006]  Net has fewer than two connections /I0
+                    SCHEMATIC1, PAGE1  (1.20, 4.20) 
+ERROR:  [DRC0029]  Bus has no name and therefore defines no signals. N06362
+                    SCHEMATIC1, PAGE1  (1.30, 0.60) 
+
+Checking for Invalid References
+
+Checking for Duplicate References
+
+Reporting Ports
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    VCC
+    GND
+
+Checking Visible Unconnected Power Pins
+
+Check Bus width mismatch
