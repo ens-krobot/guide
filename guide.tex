@@ -4,18 +4,19 @@
 %                     oneside, twoside (recto simple, recto-verso)
 %                     draft, final (stade de développement)
 
-\usepackage[latin1]{inputenc} % LaTeX, comprends les accents !
+\usepackage[utf8]{inputenc} % LaTeX, comprends les accents !
 \usepackage[T1]{fontenc}      % Police contenant les caractères français
 
 \usepackage{geometry}         % Définir les marges
 \geometry{hmargin=2.5cm, vmargin=2.5cm}
 
-\usepackage[francais]{babel}  % Placez ici une liste de langues, la dernière étant la langue principale
+\usepackage[french]{babel}  % Placez ici une liste de langues, la dernière étant la langue principale
 \usepackage{graphicx}					% Permet d'inclure des graphiques dans le document
 \usepackage{multirow}					% Pour gérer les colonnes enveloppant des lignes multiples
 \usepackage{textcomp}					% Pour avoir un meilleur symbole °
 \usepackage{float}						% Pour mettre les objets en flottant
 \usepackage{listings}					% Pour mettre en forme les codes sources
+\usepackage{listingsutf8}
 \usepackage{color}						% Pour la gestion des couleurs
 \usepackage[official]{eurosym}					% Pour avoir le symbole euro
 \usepackage{acronym}					% Pour avoir gérer les acronym
@@ -34,7 +35,7 @@
 	pdfborder={0 0 0}							% Style de bordure : ici, pas de bordure
 ]{hyperref}										% Pour les liens et le sommaire PDF
 \usepackage[nottoc, notlof, notlot]{tocbibind}		% Pour inclure les références dans le sommaire
-\usepackage[toc, style=long, number=none]{glossary}
+\usepackage[toc, style=long, nonumberlist]{glossaries}
 % Pour générer le glossaire :
 % "makeindex -s Cours.ist -t Cours.glg -o Cours.gls Cours.glo"
 \usepackage[french]{keystroke}
@@ -71,14 +72,15 @@
 	backgroundcolor=\color{listing_background_color},
 	keywordstyle=\color{blue},
 	commentstyle={\itshape\color{listing_comment_color}},
-	frame=lines	
+	frame=lines	,
+	inputencoding=utf8/latin1
 }
 
 \NoAutoSpaceBeforeFDP
 
-\makeglossary
+\makeglossaries
 
-% Les paramètres du titre : titre, auteur, date
+% Les paramètres du titre : titre, auteur, date
 \title{De la conception à la réalisation d'un robot}
 \author{Olivier Bichler\footnote{École Normale Supérieure de Cachan. E-mail : \href{mailto:olivier.bichler@ens-cachan.fr}{olivier.bichler@ens-cachan.fr}.}}
 % \date{}		% La date n'est pas requise (la date du jour de compilation est utilisée en son absence)

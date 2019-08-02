@@ -9,3 +9,6 @@
 *.glg
 *.blg
 *.bbl
+*.dvi
+*.synctex.gz
+guide.pdf
